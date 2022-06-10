@@ -14,6 +14,9 @@
 
 - childNodes (include line breaks), children (preferrable for using)
 
+## Traversing via sibling
+- nextElementSibling, previousElementSibling
+
 ## How to properly cloned a Node deeply?
 - `node_name.cloneNode(true)` here true represents we want to clone deeply means it should contains all the children node in the original node.
 
