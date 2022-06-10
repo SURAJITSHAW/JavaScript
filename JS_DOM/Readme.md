@@ -25,3 +25,14 @@
 
 # Insert / Edit text & html in a Node
 - .textContent, .innerHTML just use those two props to manipulate the data.
+
+# Events
+- How to add a Event Listener ?
+
+    elementName.addEventListener('eventName', callBack funct)
+
+- Remove node from the DOM:
+
+    parentName.removeChild(removedElementName)
+
+- `e.preventDefault()` gonna prevent the default behaviour.
