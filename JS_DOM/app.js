@@ -1,8 +1,5 @@
-const banner = document.querySelector('#page-banner');
+const books = document.querySelectorAll('#book-list li .name');
 
-console.log(banner.nodeType);
-console.log(banner.hasChildNodes());
-
-// Cloning the banner node
-const clonedBanner = banner.cloneNode(true);
-console.log(clonedBanner);
+books.forEach((book) => {
+    book.textContent += `- Book Title`
+})

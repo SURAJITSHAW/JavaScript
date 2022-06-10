@@ -16,3 +16,6 @@
 
     // Cloning the banner node
     const clonedBanner = banner.cloneNode(true);
+
+# Insert / Edit text & html in a Node
+- .textContent, .innerHTML just use those two props to manipulate the data.
