@@ -10,6 +10,9 @@
 # 6 - Nodes
 - Everything inside DOM is a node (e.g. elements, text, comments, attributes etc)
 - `.hasChildNodes()` it return a boolean value, based on if the calling Node has any Childs or not. 
+- parentNode, parentElement
+
+- childNodes (include line breaks), children (preferrable for using)
 
 ## How to properly cloned a Node deeply?
 - `node_name.cloneNode(true)` here true represents we want to clone deeply means it should contains all the children node in the original node.
